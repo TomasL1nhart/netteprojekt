@@ -1,0 +1,10 @@
+{block content}
+
+<h1>Nette AJAX</h1>
+
+{snippet pleaseReload}
+    {var $randomNumber = rand(1, 100)}
+    <p>Vaše náhodné číslo je: <strong>{$randomNumber}</strong></p>
+{/snippet}
+
+<a n:href="generateRandomNumber!" class="ajax">Generuj Ajaxově!</a>

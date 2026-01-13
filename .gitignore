@@ -1,0 +1,7 @@
+temp
+!/temp/.htaccess
+log
+!/log/.htaccess
+vendor
+node_modules
+composer.lock
